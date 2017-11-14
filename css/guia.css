@@ -1,0 +1,8 @@
+body {
+  background: url("../img/fundo.png") no-repeat bottom center;
+  background-size: cover;
+}
+
+h2.titulo-slide {
+  color: #bf0000;
+}
