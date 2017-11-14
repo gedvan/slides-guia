@@ -3,6 +3,19 @@ body {
   background: url('../img/fundo.png') no-repeat center bottom;
   background-size: cover;
 }
+body.first-slide {
+  background: url('../img/inicio-top.png') no-repeat right top,
+    url('../img/fundo.png') no-repeat center bottom;
+  background-size: auto, cover;
+}
+
+.reveal {
+  height: 85%;
+  overflow: visible;
+}
+body.first-slide .reveal {
+  height: 100%;
+}
 
 .reveal h1,
 .reveal h2 {
