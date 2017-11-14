@@ -4,8 +4,10 @@ body {
   background-size: cover;
 }
 
+.reveal h1,
 .reveal h2 {
   line-height: 1.1;
+  color: #bf0000;
 }
 
 .reveal li li {
@@ -13,5 +15,9 @@ body {
 }
 
 .destaque {
-  color: red;
+  color: #bf0000;
+}
+
+.light {
+  color: #cccccc !important;
 }
