@@ -1,0 +1,17 @@
+
+body {
+  background: url('../img/fundo.png') no-repeat center bottom;
+  background-size: cover;
+}
+
+.reveal h2 {
+  line-height: 1.1;
+}
+
+.reveal li li {
+  font-size: 80%;
+}
+
+.destaque {
+  color: red;
+}
