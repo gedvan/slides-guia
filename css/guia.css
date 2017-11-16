@@ -1,28 +1,19 @@
-body {
+
+.reveal .backgrounds .slide-background,
+.reveal .slides .pdf-page .slide-background {
   background: url('../img/fundo.png') no-repeat center bottom;
   background-size: cover;
 }
-body.first-slide {
+
+.reveal .backgrounds > .slide-background:first-child,
+.reveal .slides .pdf-page:first-child .slide-background {
   background: url('../img/inicio-top.png') no-repeat right top,
     url('../img/fundo.png') no-repeat center bottom;
-  background-size: 650px, cover;
+  background-size: 600px, cover;
 }
 
-body.print-pdf {
-  background: none;
-}
-
-body.print-pdf .pdf-page {
-  background: url('../img/fundo.png') no-repeat center bottom;
-  background-size: cover;
-}
-
-.reveal {
-  height: 85%;
-  overflow: visible;
-}
-body.first-slide .reveal {
-  height: 100%;
+.reveal .slides section:not(:first-child) {
+  padding-bottom: 100px;
 }
 
 .reveal h1,
