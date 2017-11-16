@@ -33,3 +33,10 @@
 .light {
   color: #cccccc !important;
 }
+
+.reveal section img.brasao-tjpb {
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  width: 80px;
+}
